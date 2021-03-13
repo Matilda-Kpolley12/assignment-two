@@ -1,3 +1,5 @@
+import "./contactUs.css"
+
 const Contactus = () =>{
     return(
         <>

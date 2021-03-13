@@ -4,6 +4,7 @@ import './index.css';
 import Nav from './components/Nav';
 import Header from './components/Header'
 import Main from './body/Main'
+import Footer from "./components/Footer"
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -13,6 +14,7 @@ ReactDOM.render(
     <Nav />
     <Header />
     <Main />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

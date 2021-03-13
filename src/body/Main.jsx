@@ -2,7 +2,6 @@ import Aboutus from "./Aboutus"
 import Hr from "./Hr"
 import Inventory from "./Inventory"
 import Contactus from "./Contactus"
-import Footer from "./Footer"
 const Main = () =>{
     return(
         <div>
@@ -10,7 +9,6 @@ const Main = () =>{
             <Hr />
             <Inventory />
             <Contactus />
-            <Footer />
         </div>
     )
 }

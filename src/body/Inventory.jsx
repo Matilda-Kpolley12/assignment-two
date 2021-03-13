@@ -1,3 +1,5 @@
+import "./inventory.css"
+
 const Inventory = () =>{
     return(
         <>
