@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import "./bootstrap.css"
 import Nav from './components/Nav';
-import Header from './components/Header'
-import Main from './body/Main'
+import Header from './components/Header';
+import Main from './body/Main';
 import Footer from "./components/Footer"
+
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 

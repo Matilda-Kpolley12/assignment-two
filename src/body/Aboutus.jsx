@@ -1,4 +1,5 @@
-import "./aboutUs.css"
+import "./aboutUs.css";
+import About from "./img/about-us.svg";
 
 const Aboutus = () =>{
     return(
@@ -18,7 +19,7 @@ const Aboutus = () =>{
                 all over country, and are thrilled that we're able to turn our
                 passion into our own website.
                 </p>
-                <img src="./img/about-us.svg" alt="About us" class="py-1" />
+                <img src={About} alt="About us" class="py-1" />
             </div>
             </div>
             </section>

@@ -1,5 +1,5 @@
 import './header.css'
-
+import Hero from './hero-car.svg'
 const Header = () =>{
     
     return(
@@ -19,7 +19,7 @@ const Header = () =>{
 
                     {/* banner image */}
                     <div class="car animated fadeIn">
-                    <img src="img/hero-car.svg" alt="car" />
+                    <img src={Hero} alt="car" />
                     </div>
                 </div>
             </header>  
